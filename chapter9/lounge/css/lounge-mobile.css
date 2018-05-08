@@ -1,0 +1,18 @@
+@media screen and (max-device-width: 480px) {
+    #guarantee {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+        color: #444444;
+        border: 1px dashed white;
+        padding: 25px 25px 25px 80px;
+        margin: 30px;
+        line-height: 1.9em;
+        background: #a7cece url(../images/background.gif) no-repeat top left;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #guarantee {
+        margin-right: 30px;
+    }
+}

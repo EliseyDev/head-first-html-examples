@@ -4,7 +4,7 @@ body {
     line-height: 1.6em;
 }
 
-h2, h2 {
+h1, h2 {
     color: #007e7e;
 }
 
@@ -25,7 +25,6 @@ h2 {
     margin: 30px 250px 30px 30px;
     line-height: 1.9em;
     background: #a7cece url(../images/background.gif) no-repeat top left;
-
 }
 
 p#footer {

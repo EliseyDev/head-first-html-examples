@@ -1,4 +1,4 @@
-# Примеры "Изучаем HTML, XHTML и CSS" из серии книг Head First 
+# Примеры из книги Head First "Изучаем HTML, XHTML и CSS" 
 
 
 ## Оглавление:
@@ -70,4 +70,8 @@
 
 ### Глава 11: "Расставим элементы по местам"
 
+- Плавающие элементы. Табличное представление (display: table, table-row, table-cell). Абсолютное позиционирование
+- Свойства - clear, auto, left, right, top, bottom
+- Position: static, absolute, fixed, relative
+- z-index
 - Новый сайт для "Starbuzz"

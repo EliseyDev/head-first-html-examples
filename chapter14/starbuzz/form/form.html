@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Starbuzz Bean Machine</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styledform.css">
+</head>
+<body>
+<h1>Starbuzz Bean Machine</h1>
+<h2>Заполните следующую форму и нажмите кнопку "Заказать сейчас",
+    чтобы оформить заказ</h2>
+
+<form action="http://starbuzzcoffee.com/processorder.php" method="post">
+    <fieldset>
+        <legend>Детали заказа</legend>
+        <div class="tableRow">
+            <label for="beans">Выберите кофе:</label>
+            <p><select id="beans" name="beans">
+                <option value="Смесь">Домашняя смесь</option>
+                <option value="Боливия">Боливия</option>
+                <option value="Гватемала">Гватемала</option>
+                <option value="Кения">Кения</option>
+            </select>
+            </p>
+        </div>
+        <div class="tableRow">
+            <label>Тип кофе:</label>
+            <p>
+                <input type="radio" name="beantype" value="зерна" id="whole_beantype">
+                <label for="whole_beantype">Кофе в зернах</label>
+                <input type="radio" name="beantype" value="молотый" checked id="ground_beantype">
+                <label for="ground_beantype">Молотый кофе</label>
+            </p>
+        </div>
+        <div class="tableRow">
+            <label for="bags">Количество пакетиков:</label>
+            <input type="number" name="bags" id="bags" min="1" max="10">
+        </div>
+        <div class="tableRow label">
+            <label for="date">Доставить к указанной дате:</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div class="tableRow">
+            <label> Дополнительные услуги:</label>
+            <p>
+                <input type="checkbox" name="extras[]" id="gift_wrap" value="подарочная упаковка">
+                <label for="gift_wrap">Подарочная упаковка</label><br>
+                <input type="checkbox" name="extras[]" id="catalog" value="каталог" checked="checked">
+                <label for="catalog">Доставка каталога вместе с заказом</label>
+            </p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Доставить по адресу</legend>
+        <div class="tableRow">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="tableRow">
+            <label for="address">Адрес:</label>
+            <input type="text" id="address" name="address">
+        </div>
+        <div class="tableRow">
+            <label for="city">Город:</label>
+            <input type="text" id="city" name="city">
+        </div>
+        <div class="tableRow">
+            <label for="country">Страна:</label>
+            <input type="text" id="country" name="state">
+        </div>
+        <div class="tableRow">
+            <label for="zip">Почтовый индекс:</label>
+            <input type="text" id="zip" name="zip">
+        </div>
+        <div class="tableRow">
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="tableRow">
+            <label for="comments">Комментарии клиентов:</label>
+            <textarea id="comments" name="comments"></textarea>
+        </div>
+        <div class="tableRow">
+            <label></label>
+            <p><input type="submit" value="Заказать сейчас"></p>
+        </div>
+    </fieldset>
+</form>
+<p>
+    <a href="../index.html">Назад</a>
+</p>
+</body>
+</html>

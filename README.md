@@ -1,4 +1,4 @@
-# Примеры из книги Head First "Изучаем HTML, XHTML и CSS" 
+# Практикум из книги Head First "Изучаем HTML, XHTML и CSS" 
 
 
 ## Оглавление:
